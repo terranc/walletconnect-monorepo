@@ -70,7 +70,7 @@ export function open(uri: string, cb: any, qrcodeModalOptions?: IQRCodeModalOpti
   const wrapper = renderWrapper();
   ReactDOM.render(
     <Modal
-      text={getText()}
+      text={(qrcodeModalOptions?.lang as keyof typeof Languages) ? Languages[qrcodeModalOptions?.lang] : getText()}
       uri={uri}
       onClose={getWrappedCallback(cb)}
       qrcodeModalOptions={qrcodeModalOptions}

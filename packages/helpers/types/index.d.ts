@@ -379,6 +379,7 @@ export interface IQRCodeModalOptions {
   registryUrl?: string;
   mobileLinks?: string[];
   desktopLinks?: string[];
+  lang?: string;
 }
 
 export interface IMobileRegistryEntry {
