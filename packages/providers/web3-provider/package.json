@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/web3-provider",
+  "name": "@terranc/web3-provider",
   "version": "1.7.8",
   "description": "Web3 Provider for WalletConnect",
   "scripts": {
@@ -65,8 +65,8 @@
   "dependencies": {
     "@walletconnect/client": "^1.7.8",
     "@walletconnect/http-connection": "^1.7.8",
-    "@walletconnect/qrcode-modal": "^1.7.8",
-    "@walletconnect/types": "^1.7.8",
+    "@walletconnect/qrcode-modal": "^1.7.8.2",
+    "@walletconnect/types": "^1.7.8.2",
     "@walletconnect/utils": "^1.7.8",
     "web3-provider-engine": "16.0.1"
   },
